@@ -25,12 +25,12 @@ console.log(printArray10To50());
 //Print count from number 233 to 456, who are odd.
 
 var oddCount = 0;
-function countOddNumber (){
-    for (var i = 233; i <= 456; i++) {
-        if (i % 2 == 1) {
-          oddCount++;
-        }
-      }
-      return oddCount;
+function countOddNumber() {
+  for (var i = 233; i <= 456; i++) {
+    if (i % 2 == 1) {
+      oddCount++;
+    }
+  }
+  return oddCount;
 }
 console.log("Total Count of Odd Numbers Between 233 - 456 :", countOddNumber());
