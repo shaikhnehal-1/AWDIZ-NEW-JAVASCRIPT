@@ -1,6 +1,6 @@
 //Binary Search - Day 11
 var array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-var target = 9;
+var target = 100;
 
 function BinarySearch() {
   var left = 0;
@@ -24,6 +24,7 @@ function BinarySearch() {
       console.log(array[midIndex], target, "array[midIndex] < target");
     }
   }
+  return "Not Found";
 }
 
 console.log(BinarySearch(array, target));
